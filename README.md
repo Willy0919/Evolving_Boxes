@@ -15,7 +15,7 @@ This project is released under the BSD 3-clause "New" or "Revised" License (deta
 ## Configuration
 Our implementation is based on the [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn), please see the [Requirements](https://github.com/rbgirshick/py-faster-rcnn#requirements-software) for helping configure your Caffe environment.
 
-## Demo for vehicle detection
+## Demo for Vehicle Detection
 To run the demo<br />
 ```
 python tools/demo.py
@@ -57,7 +57,7 @@ Like Training process, you should replace the`DATA_PATH` in `experiments/scripts
 ```
 ./experiments/scripts/test.sh GPU([0-9]) NET(VGG16) DATASET(detrac) HYPERNET(1-3-5/3-5/3-4-5/5)
 ```
-The Testing results are saved as files in `data/test_results` according to the detection submission format.
+The testing results are saved as files in `data/test_results` according to the detection submission format.
 
 ## Thanks
 Thank you for appreciating our works.<br />
