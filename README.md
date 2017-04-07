@@ -1,21 +1,21 @@
 # Evolving_Boxes
-Python implementation of [Evolving Boxes for Fast Vehicle Detection](https://arxiv.org/abs/1702.00254), a paper on ICME 2017.
+Python implementation of [Evolving Boxes for Fast Vehicle Detection](http://zyb.im/research/EB/), a paper on ICME 2017.
 
 ## License & Citation
 This project is released under the BSD 3-clause "New" or "Revised" License (details in LICENSE file). If you think our work is useful in your research, please considering citing:<br />
 ```
-@article{wang2017evolving,
-  title={Evolving Boxes for fast Vehicle Detection},
-  author={Wang, Li and Lu, Yao and Wang, Hong and Zheng, Yinbin and Ye, Hao and Xue, Xiangyang},
-  journal={arXiv preprint arXiv:1702.00254},
+@inproceedings{wang2017evolving,
+  title={Evolving Boxes for Fast Vehicle Detection},
+  author={Wang, Li and Lu, Yao and Wang, Hong and Zheng, Yingbin and Ye, Hao and Xue, Xiangyang},
+  booktitle={IEEE International Conference on Multimedia and Expo (ICME)},
   year={2017}
 }
 ```
 
 ## Configuration
-Our implementation is based on the [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn), please see the Requirements for helping configure your Caffe environment.
+Our implementation is based on the [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn), please see the [Requirements](https://github.com/rbgirshick/py-faster-rcnn) for helping configure your Caffe environment.
 
-## Demo
+## Demo for vehicle detection
 To run the demo<br />
 ```
 python tools/demo.py
@@ -50,6 +50,8 @@ You need replace the `DATA_PATH` in `experiments/scripts/train.sh` with your own
 ```
 ./experiments/scripts/train.sh GPU([0-9]) NET(VGG16) DATASET(detrac) HYPERNET(1-3-5/3-5/3-4-5/5)
 ```
+The training models are saved under `output/default/`<br />
+
 ### Testing:
 Like Training process, you should replace the`DATA_PATH` in `experiments/scripts/test.sh` :
 ```
@@ -58,5 +60,5 @@ Like Training process, you should replace the`DATA_PATH` in `experiments/scripts
 The Testing results are saved as files in `data/test_results` according to the detection submission format.
 
 ## Thanks
-Thank you for appreciating our works.
-If you have any questions, please contact me at wangli16@fudan.edu.cn
+Thank you for appreciating our works.<br />
+If you have any question, please contact me at wangli16@fudan.edu.cn
