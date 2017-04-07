@@ -13,7 +13,7 @@ This project is released under the BSD 3-clause "New" or "Revised" License (deta
 ```
 
 ## Configuration
-Our implementation is based on the [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn), please see the [Requirements](https://github.com/rbgirshick/py-faster-rcnn) for helping configure your Caffe environment.
+Our implementation is based on the [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn), please see the [Requirements](https://github.com/rbgirshick/py-faster-rcnn#requirements-software) for helping configure your Caffe environment.
 
 ## Demo for vehicle detection
 To run the demo<br />
