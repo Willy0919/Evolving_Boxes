@@ -2,7 +2,7 @@
 Python implementation of [Evolving Boxes for Fast Vehicle Detection](http://zyb.im/research/EB/), a paper on ICME 2017.
 
 ## License & Citation
-This project is released under the BSD 3-clause "New" or "Revised" License (details in LICENSE file). If you think our work is useful in your research, please considering citing:<br />
+This project is released under the BSD 3-clause "New" or "Revised" License (details in LICENSE file). If you think our work is useful in your research, please consider citing:<br />
 ```
 @inproceedings{wang2017evolving,
   title={Evolving Boxes for Fast Vehicle Detection},
@@ -53,7 +53,7 @@ You need replace the `DATA_PATH` in `experiments/scripts/train.sh` with your own
 The training models are saved under `output/default/`<br />
 
 ### Testing:
-Like Training process, you should replace the`DATA_PATH` in `experiments/scripts/test.sh` :
+Like Training process, you need to replace the`DATA_PATH` in `experiments/scripts/test.sh` :
 ```
 ./experiments/scripts/test.sh GPU([0-9]) NET(VGG16) DATASET(detrac) HYPERNET(1-3-5/3-5/3-4-5/5)
 ```
