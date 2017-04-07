@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 # --------------------------------------------------------
+# Demo script showing vehicle detections in sample images from DETRAC testing datasets using the EB model.
 # Faster R-CNN
 # Copyright (c) 2015 Microsoft
 # Licensed under The MIT License [see LICENSE for details]
@@ -9,7 +10,8 @@
 # --------------------------------------------------------
 
 """
-Demo script showing detections in sample images.
+
+The default model is the best performance model in paper Evolving Boxes for Fast Vehicle Detection which use the 1st, 3rd and 5th conv layers
 
 See README.md for installation instructions before running.
 """
