@@ -1,4 +1,4 @@
-# Evovling_Boxes
+# Evolving_Boxes
 Python implementation of [Evolving Boxes for Fast Vehicle Detection](https://arxiv.org/abs/1702.00254), a paper on ICME 2017.
 
 ## License & Citation
