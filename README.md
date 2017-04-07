@@ -44,7 +44,7 @@ Training and validation datasets preparation operations can be seen at `data/dat
 		*...
 ```
 
-#### Training:
+### Training:
 We have four options of multi-layer feature concatenation:1-3-5(1st, 3rd and 5th convolutional layers), 3-5, 3-4-5 and only final convolutional layer.<br />
 You need replace the `DATA_PATH` in `experiments/scripts/train.sh` with your own dataset path
 ```
