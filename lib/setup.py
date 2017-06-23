@@ -139,17 +139,10 @@ ext_modules = [
                                      "'-fPIC'"]},
         include_dirs = [numpy_include, CUDA['include']]
     ),
-    Extension(
-        'pycocotools._mask',
-        sources=['pycocotools/maskApi.c', 'pycocotools/_mask.pyx'],
-        include_dirs = [numpy_include, 'pycocotools'],
-        extra_compile_args={
-            'gcc': ['-Wno-cpp', '-Wno-unused-function', '-std=c99']},
-    ),
 ]
 
 setup(
-    name='fast_rcnn',
+    name='evb',
     ext_modules=ext_modules,
     # inject our custom trigger
     cmdclass={'build_ext': custom_build_ext},
