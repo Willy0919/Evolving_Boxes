@@ -61,4 +61,4 @@ The testing results are saved as files in `data/test_results` according to the d
 
 ## Thanks
 Thank you for appreciating our works.<br />
-If you have any question, please contact yeh@sari.ac.cn
+If you have any question, please contact wangli16@fudan.edu.cn
