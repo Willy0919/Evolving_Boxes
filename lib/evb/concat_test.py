@@ -26,7 +26,7 @@ class ConcatTestLayer(caffe.Layer):
 
 	top[0].data[:,0:self.Dim1] = 0.0
 	self.selectDim = np.where(self.keep2<self.keep1.shape[0])
-	top[0].data[self.selectDim,0:self.Dim1] = (fc1[self.keep1.tolist()])[self.keep2[self.selectDim].tolist()]
+	top[0].data[self.selectDim,0:self.Dim1] = (fc1[self.keep1.astype(int).tolist()])[self.keep2[self.selectDim].astype(int).tolist()]
 	top[0].data[:,self.Dim1:self.Dim1+self.Dim2] = fc2
 
     def backward(self, top, propagate_down, bottom):
